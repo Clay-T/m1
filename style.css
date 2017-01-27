@@ -1,4 +1,4 @@
-/* Website template by freewebsitetemplates.com */
+
 body {
 	margin: 0;
 	padding: 0;
@@ -20,6 +20,8 @@ a:active {
 }
 img {
 	border: none;
+	position: relative;
+	margin-left: 430px;
 }
 /*-------------------------------------------FONTS---------------------------------------------*/
 @font-face {
@@ -57,9 +59,8 @@ img {
 }
 #header div {
 	margin: 0 auto;
-	max-width: 940px;
-	overflow: hidden;
-	padding: 41px 10px 27px;
+	max-width: 1200px;
+	padding: 0px;
 }
 #header div a.logo {
 	float: left;
@@ -74,18 +75,18 @@ img {
 	width: auto;
 }
 #header div ul {
-	display: inline-block;
+	display: inline;
 	float: right;
 	list-style: none outside none;
 	margin: 0 auto;
-	padding: 17px 0 0;
+	padding: 5 5 5 5;
 	text-align: center;
-	width: 513px;
+	width: 1320px;
 }
 #header div ul li {
 	display: inline-block;
 	*float: left; /* Needed for IE7 and old versions */
-	margin: 0 35px;
+	margin: 0 35px auto;
 	padding: 0;
 	position: relative;
 	width: auto;
@@ -96,8 +97,8 @@ img {
 	font-size: 15px;
 	font-weight: normal;
 	line-height: 15px;
-	margin: 0;
 	padding: 0;
+	margin:0px;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -110,10 +111,11 @@ img {
 #header div ul li ul li a {
 	color: #cb3362;
 	font-family: lato-regular-webfont;
-	font-size: 15px;
+	font-size: 5px;
 	font-weight: normal;
-	line-height: 15px;
+	line-height: 13px;
 	margin: 0;
+	
 	padding: 0;
 	text-align: center;
 	text-transform: uppercase;
@@ -121,11 +123,12 @@ img {
 #header div ul li.menu {
 	min-height: 35px;
 	z-index: 80;
+	width: 10 10 10 10;
 }
 #header div ul li.menu ul {
 	display: block;
-	float: none;
-	left: -99999px;
+	float:none;
+	left: -10px;
 	margin: 0;
 	padding: 0;
 	position: absolute;
@@ -187,10 +190,10 @@ img {
 	margin: 0;
 	padding: 52px 0 0;
 	position: absolute;
-	right: 130px;
+	right: 98px;
 	text-align: center;
 	text-transform: uppercase;
-	top: 437px;
+	top: 692px;
 	width: 156px;
 	z-index: 90;
 }
